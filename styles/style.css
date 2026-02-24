@@ -1,1 +1,279 @@
-/* место для вашего кода */
+.text__small {
+  font-size: 18px;
+}
+
+.text__average {
+  font-size: 20px;
+}
+
+.text__big {
+  font-size: 22px;
+}
+
+.text__white {
+  color: #fff;
+}
+
+.text__uppercase {
+  text-transform: uppercase;
+}
+
+.text__underline {
+  text-decoration: underline;
+}
+
+.lots__card-text {
+  padding-bottom: 5px;
+}
+
+.menu-link_active {
+  text-decoration: none;
+}
+
+.header {
+  height: 293px;
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__links-list-item_bullit {
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo {
+  display: block;
+  width: 136px;
+  height: 108px;
+}
+
+.address {
+  width: 240px;
+  height: 98px;
+  font-style: normal;
+}
+
+.address__height {
+  height: 24px;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+}
+
+.cover {
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 180px;
+}
+
+.cover__padding {
+  padding: 165px 50px 50px 50px;
+}
+
+.overlay {
+  background-color: rgb(0 0 0 / 0.6);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cover__title {
+  font-size: 100px;
+  letter-spacing: 30px;
+}
+
+.cover__title span {
+  display: block;
+  margin-bottom: 20px;
+  height: 115px;
+}
+
+.aligned-text_center {
+  text-align: center;
+  margin-left: 31px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-right: -30px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 51px;
+}
+
+.description-word_spacing {
+  word-spacing: 20px;
+}
+
+.description-word_spacing_second {
+  word-spacing: 18px;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  border: #fff 1px solid;
+  background: transparent;
+}
+
+.lots {
+  margin-bottom: 120px;
+  height: 723px;
+}
+
+.lots__heading {
+  font-size: 40px;
+  height: 47px;
+  margin: 0 0 27px 64px;
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.lots__padding {
+  padding: 48px 40px;
+}
+
+.card_type {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 334px;
+  height: 596px;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.lots__look-more-link {
+  display: block;
+  margin: 30px 0 2px 64px;
+}
+
+.about {
+  margin-bottom: 180px;
+  height: 595px;
+  display: grid;
+  grid-template-columns: 334px 1fr;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-left: 48px;
+  width: 240px;
+  height: 240px;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__column {
+  justify-self: end;
+  align-self: end;
+  padding-left: 49px;
+  padding-right: 27px;
+}
+
+.about__title {
+  margin-bottom: 102px;
+  font-size: 40px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+
+.footer {
+  height: 180px;
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+.footer__address {
+  width: 264px;
+  height: 98px;
+  font-style: normal;
+}
+
+.footer__menu-list-item_hight {
+  height: 26px;
+  display: block;
+}
+
+.footer__address_display_block {
+  display: block;
+}
+
+.footer__menu {
+  width: 149px;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  width: 240px;
+  justify-self: end;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__links-list-item_no-bullit {
+  list-style: none;
+}
